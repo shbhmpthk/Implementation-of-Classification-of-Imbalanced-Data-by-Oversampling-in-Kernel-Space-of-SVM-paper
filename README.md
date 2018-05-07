@@ -4,10 +4,19 @@ Authors : Josey Mathew, Chee Khiang Pang, Ming Luo, Weng Hoe Leong
 Title: Classification of Imbalanced Data by Oversampling in Kernel Space of Support Vector Machines
 
 In order to run main.m which is the actual implementation of above mentioned research paper, you need to setup weighted libsvm installed in you matlab and SMOTE program that will be used to generate synthethic minority class examples.
+
 --> Open matlab folder, use readme inside the folder
+
+
 --> Install libsvm-weighted package
+
+
 --> Put code, test dataset(diabetes.csv) and smote code in same directory.
+
+
 --> Execute "main.m" 
+
+
 The file will execute the code on diabetes.csv, efficiency of the given code will be near about 82.6%
 User need to tune parameter C, Cmin,Cmaj,Csyn yourself.
 
